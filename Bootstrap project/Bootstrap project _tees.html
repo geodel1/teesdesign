@@ -1,0 +1,492 @@
+<!DOCTYPE>
+<html lang="en">
+<head>
+	<title>Bootstrap Theme TEEstify</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
+  	<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
+	<link rel="stylesheet" type="text/css" href="Bootstrap style.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+
+
+<!-- bs scrollspy -->
+<body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="50">
+
+
+<nav class="navbar navbar-default navbar-fixed-top">
+	<!-- logo portion -->
+	<div class="container-fluid">
+		<div class="navbar-header">
+			<!-- collapsible navbar  -->
+			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+			<!-- hamburger menu -->
+	        <span class="icon-bar"></span>
+	        <span class="icon-bar"></span>
+	        <span class="icon-bar"></span>
+	        </button>
+	        
+			<a href="#myPage"><img src="res/striptees.jpg"></a>
+		</div>
+	
+	<!-- right portion -->
+		<div class="collapse navbar-collapse" id="myNavbar">
+			<ul class="nav navbar-nav navbar-right">
+				<li><a href="#myPage">Home</a></li>
+				<li><a href="#design">Design Now!</a></li>
+				<li><a href="#">Sitemap</a></li>
+				<li><a href="#registernow">Register</a></li>
+				<!-- addditional menu -->
+				<li class="dropdown">
+					<a class="dropdown-toggle" data-toggle="dropdown" href="#">More
+					<span class="caret"></span></a>
+					<ul class="dropdown-menu">
+						<li><a href="#">Merchandises</a></li>
+						<li><a href="#">Events</a></li>
+						<li><a href="#">Media</a></li>
+					</ul>
+				</li>
+				<li class="dropdown">
+					<a class="dropdown-toggle" data-toggle="dropdown" href="">
+					<span class="glyphicon glyphicon-search"></span></a>
+					<ul class="dropdown-menu">
+						<input type="text" placeholder="Search keyword.." id="myInput" onkeyup="filterFunction()">
+						<li>Designers</li>
+						<li>Design</li>
+						<li>Locations</li>
+					</ul>
+			</ul>
+		</div>
+	</div>
+</nav>
+
+
+<div id="myCarousel" class="carousel slide" data-ride="carousel">
+<!-- carousel indicators -->
+	<ol class="carousel-indicators">
+		<li data-target="myCarousel" data-slide-to="0" class="active"></li>
+		<li data-target="#myCarousel" data-slide-to="1"></li>
+		<li data-target="myCarousel" data-slide-to="3"></li>
+		<li data-target="myCarousel" data-slide-to="4"></li>
+		<li data-target="myCarousel" data-slide-to="5"></li>
+	</ol>
+	
+	<!-- wrapper for slides -->
+	<div class="carousel-inner" role="listbox">
+
+		<div class="item active">
+			<img src="res/snbcarousel1.jpg" width="1200" height="auto">
+			<div class="carousel-caption">
+				<h3>Beauty is in the eyes of the beholder <br>-Traditional Proverb</h3>
+				<p>Take a piece of my mind,look at me with those impenetrable eyes. . .
+				.</p>
+			</div>
+		</div>
+		
+		<div class="item">
+			<img src="res/snbcarousel2.jpg" width="1200" height="500">
+			<div class="carousel-caption">
+				<h3>We got company!</h3>
+				<p>Choose from premade and authentic tees from our different ambassadors.</p>
+			</div>
+		</div>
+
+		<div class="item">
+			<img src="res/snbcarousel3.jpg" width="1200" height="500">
+			<div class="carousel-caption">
+				<h3>Designers Unite!</h3>
+				<p>Register now! and choose your path to become our branded designers. Choose a designer that have the same passion and like yours.</p>
+			</div>
+		</div>
+		
+		<div class="item">
+			<img src="res/snbcarousel4.jpg" width="1200" height="500">
+			<div class="carousel-caption">
+				<h3>Design on your own and let us find you a market.</h3>
+				<p>We are giving opportunities to those who have the passion and the eyes to capture an audience. Bring your design to the world perspective and get featured on our Designs and designers weekly featured posts.</p>
+			</div>
+		</div>
+
+		<div class="item">
+			<img src="res/snbcarousel5.jpg" width="1200" height="500">
+			<div class="carousel-caption">
+				<h3>We are the elites!</h3>
+				<p>Gather the pack and unleash your creative mayhem!.</p>
+			</div>
+		</div>
+		<!-- Left and right -->
+		<a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+     		<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+      		<span class="sr-only">Previous</span>
+    	</a>
+    	<a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+      		<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+      		<span class="sr-only">Next</span>
+    	</a>
+
+</div>
+
+<div id="postit" class="container text-center">
+	<h3>Designs of the Week</h3>
+	<p>Register now, be one of our designers, build your crown and be featured as our weekly designers. </p>
+	<b>
+	<p>We sometimes wear different hats. Our featured designer and designs of the week has its roots from creating music. Music that is so vast and vivid that it transcends to his own skin and tees he wears.
+	</p>
+	<br>
+
+	<div class="row">
+		
+		<div class="col-sm-6">
+			<div class="thumbnail">
+			<h5>Designer of the Week</h5>
+				<a><img src="res/snbpostit1.jpg" style="width: 100%">
+
+					<div class="caption">
+						<p>Making music isn’t his only love, the frontman of WilaBaliW and Queso opens up about his two other passions: Tattoos and T-shirt designs...</p>
+						<a href="Bootstrap project_teespart2.html">
+						<button type="button"
+						class="btn">
+						More</button>
+						</a>
+					</div>
+				</a>	
+			</div>
+		</div>
+		
+		<div class="col-sm-6">
+			<div class="thumbnail">
+				<h5></h5>
+				<a><img src="res/snbpostit2.jpg" style="width: 100%">
+					<div class="caption">
+						<p>The Green Herb.</p>
+						<p>"I knew and the world, 
+						That herb was created for the use of man. 
+						Herb was here before man, 
+						So that means if man can control
+						Quietly the laws of who created herb, 
+						Because herb is not an illusion
+						It is creation and it was created by a divine man
+						For divine purposes<br>
+						-Rastafarisland.</p>
+						<a href="Bootstrap project_teespart2.html
+						">
+						<button type="button"
+						class="btn"
+						>More</button></a>
+					</div>
+				</a>	
+			</div>
+
+			<div class="thumbnail">
+			<h5>Designs of the week</h5>
+				<a><img src="res/snbpostit3.jpg" style="width: 100%">
+					<div class="caption">
+						<p>Datu's Tribe</p>
+						<p>The datu have ruled over portions of the islands that are now the Philippines before Spanish colonization in the 16th century. This article lists the pre-colonial leaders of individual kingdoms and polities in Philippine history..</p>
+						<a href="#">
+						<button type="button"
+						class="btn"
+						>More</button></a>
+					</div>
+				</a>	
+			</div>
+
+		</div>		
+
+	</div>	
+</div>
+
+
+<!-- design and shop page -->
+<div id="design" class="bg-1">
+	<div class="container">
+		<h3 class="text-center">Customize then Order your Tees!</h3>
+		<p class="text-center">Access our wid array of customizable designer's shirt design, place your order then Wear it proud! 
+		</p>
+		<ul class="list-group">
+			<li class="list-group-item">Archives/ Events / Designs</li>
+			<li class="list-group-item"><a href="Bootstrap project_tees archives and events.html">December</a>
+				<span class="label label-danger">What's hot?</span></li>
+			<li class="list-group-item"><a href="#">January</a>
+				<span class="label label-danger">New year events?</span></li>
+			<li class="list-group-item"><a href="#">February</a>
+				<span class="label label-danger">Couples'tees</span></li>	
+		</ul>
+			
+		<div class="row text-center">
+
+			<div class="col-sm-4">
+				<div class="thumbnail">
+					<img src="res/snbdesign1.jpg" alt="shirt" width="400" height="300">
+					<p><strong>Greyhoundz' ur puppet and clown</strong>
+					</p>
+					<p>Reg Rubio
+					</p>
+					<button class="btn" data-toggle="modal" data-target="#myModalcustomize">Customize
+					</button>
+					<button class="btn" data-toggle="modal" data-target="#myModalorder">Order now!
+					</button>
+				</div>
+			</div>
+			
+			<div class="col-sm-4">
+				<div class="thumbnail">
+					<img src="res/snbdesign2.jpg" alt="shirt" width="400" height="300">
+					<p><strong>Samurai</strong>
+					</p>
+					<p>Ocho Toleran
+					</p>
+					<button class="btn" data-toggle="modal" data-target="#myModalcustomize">Customize
+					</button>
+					<button class="btn" data-toggle="modal" data-target="#myModalorder">Order now!
+					</button>
+				</div>
+			</div>
+
+			<div class="col-sm-4">
+				<div class="thumbnail">
+					<img src="res/snbdesign3.jpg" alt="shirt" width="400" height="300">
+					<p><strong>Skull sheriff</strong>
+					</p>
+					<p>Jay Contreras
+					</p>
+					<button class="btn" data-toggle="modal" data-target="#myModalcustomize">Customize
+					</button>
+					<button class="btn" data-toggle="modal" data-target="#myModalorder">Order now!
+					</button>
+				</div>
+			</div>
+		</div>
+	</div>	
+
+	<!-- modal for order now! -->
+	<div class="modal fade" id="myModalorder" role="dialog">
+		<div class="modal-dialog">
+			<!-- modal content -->
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal">
+					</button>
+					<h4><span class="glyphicon glyphicon-lock"></span>Prices</h4>
+				</div>
+				
+				<div class="modal-body">
+					<form role="form">
+						<div class="form-group">
+							<label for="psw"><span class="glyphicon glyphicon-shopping-cart"></span> Tees, Php 500</label>
+							<input type="number" class="form-control" id="psw" placeholder="Quantity?">
+						</div>
+						
+						<div class="form-group">
+							<label for="username"><span
+							class="glyphicon glyphicon-user"></span>Send To</label>
+								
+							<input type="text" class="form-control" id="username" placeholder="Enter email">
+						</div>		
+							<button type="submit" class="btn btn-block">Pay
+								<span class="glyphicon glyphicon-ok">				
+								</span>
+							</button>
+					</form>
+				</div>
+				<div class="modal-footer">
+					<button type="submit" class="btn btn-danger btn-default pull-left" data-dismiss="modal">
+						<span class="glyphicon glyphicon-remove">
+						</span> Cancel
+					</button>
+					
+				</div>			
+			</div>
+		</div>		
+	</div>
+
+
+	<!-- modal for customize button-->
+	<div class="modal fade" id="myModalcustomize" role="dialog">
+			<div class="modal-dialog modal-lg">
+				<!-- modal content -->
+				<div class="modal-content">
+					<div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal">
+						</button>
+						<h4><span class="glyphicon glyphicon-wrench"></span>Customize</h4>
+					</div>
+
+					
+					<div class="modal-body">
+						<div class="modalimage">
+							<img src="res/snbartist9.jpg">
+						</div>
+
+						<div>
+							  <p>Search for favorite designer or designs:<br>
+							    <button type="button" class="btn btn-info">
+							      <span class="glyphicon glyphicon-search"></span> Search
+							     <span><input type="text" placeholder="Search here" >
+							     </span>
+							    </button>
+							  </p>
+						</div>
+
+					</div>
+					<div class="modal-footer">
+						<button type="submit" class="btn btn-danger btn-default pull-left" data-dismiss="modal">
+							<span class="glyphicon glyphicon-remove">
+							</span> Cancel
+						</button>
+						
+					</div>			
+				</div>
+			</div>		
+		</div>
+
+
+</div>
+
+
+
+<!-- container pagination -->
+	<div id="pages" class="container">
+		<ul class="pagination">
+			<li class="active"><a href="#">1</a></li>
+			<li><a href="">2</a></li>
+			<li><a href="">3</a></li>
+			<li><a href="">4</a></li>
+			<li><a href="">Previous</a></li>
+			<li><a href="">Next</a></li>
+		</ul>	
+	</div>
+
+
+
+<!-- register now -->
+<div id="registernow" class="container">
+	<h3>REGISTER NOW!</h3>
+	<P>Sign up for free and join the elite of designers.</p> 
+	<p>Build your own design and crowd.</p>
+	<p>Let your own crowd contact you for personal touch and tees' customization</p>
+
+
+
+	<div class="row">
+		<div class="col-md-6">
+			<div class="row">
+				<div class="col-sm-6 form-group">
+					<label for="firstname">Firstname:
+					</label>
+					<input type="name" class="form-control" id="firstname" placeholder="Enter First name">
+					<label for="mobileno">Mobile no.:</label>
+					<input type="mobile" class="form-control" id="mobileno" placeholder="Enter phone number">
+					</input>
+					<label for="Username">
+					Username:
+					</label>
+					<input type="username" class="form-control" id="username" placeholder="Enter desired username">
+					</input>
+					<form>
+					<label class="checkbox-inline">
+						<input type="checkbox" value="">Designer
+					</label>
+					<label class="checkbox-inline">
+						<input type="checkbox" value="">Customer
+					</label>
+					<label class="checkbox-inline">
+						<input type="checkbox" value="">Both
+					</label>
+					</form>				
+				</div>				
+			</div>			
+		</div>
+
+
+		<div class="col-md-6">
+			<div class="row">
+				<div class="col-sm-6 form-group">
+					<label for="lastname">Lastname:
+					</label>
+					<input type="name" class="form-control" id="lastname" placeholder="Enter last name">
+					<label for="email">Email:</label>
+					<input type="email" class="form-control" id="email" placeholder="Enter email">
+					</input>
+					<label for="pwd">
+					Password:
+					</label>
+					<input type="password" class="form-control" id="password" placeholder="Enter Password">
+					</input>
+					<form>
+						<label class="checkbox-inline">
+						<input type="checkbox" value="">Male</label>
+						<label class="checkbox-inline">
+						<input type="checkbox" value="">Female</label>
+						</input>
+					</form>			
+				</div>				
+			</div>			
+		</div>
+	</div>
+</div>
+
+
+
+<!-- footer -->
+<footer>
+	<div class="container text-center">
+		<div class="row">
+			<div class="copyright
+			">Copyright <span class="glyphicon glyphicon-copyright-mark"></span>; 2016 Tuitt Philippines Inc.<br> All rights reserved | Design by Tuitt</div><br>
+
+			<div class="totop">
+				<a class="up-arrow"
+				  href="#myPage" data-toggle="tooltip" title="TO TOP"><span class="glyphicon glyphicon-chevron-up"></span></a>
+				  <br>
+			</div>
+
+			<div class="logos">
+				<img src="res/fblogo.svg"
+					width="20px">
+				<img src="res/twitterlogo.svg" width="20px">
+				<img src="res/tumblerlogo.svg" width="20px">
+				<img src="res/googlepluslogo.svg" width="20px">
+				<img src="res/pinterestlogo.svg" width="20px">
+			</div>			
+		</div>		
+	</div>
+	
+</footer>
+<script>
+$(document).ready(function(){
+  // Initialize Tooltip
+  $('[data-toggle="tooltip"]').tooltip(); 
+  
+  // Add smooth scrolling to all links in navbar + footer link
+  $(".navbar a, footer a[href='#myPage']").on('click', function(event) {
+
+    // Make sure this.hash has a value before overriding default behavior
+    if (this.hash !== "") {
+
+      // Prevent default anchor click behavior
+      event.preventDefault();
+
+      // Store hash
+      var hash = this.hash;
+
+      // Using jQuery's animate() method to add smooth page scroll
+      // The optional number (900) specifies the number of milliseconds it takes to scroll to the specified area
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 900, function(){
+   
+        // Add hash (#) to URL when done scrolling (default click behavior)
+        window.location.hash = hash;
+      });
+    } // End if
+  });
+})
+</script>
+
+</body>
+</html>
+
